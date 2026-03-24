@@ -10,7 +10,7 @@ Este proyecto es un análisis integral de la ejecución del Presupuesto del año
 - **Diseño visual del informe**: Canva y Power BI
 
 ## ⚙️ Limpieza, transformación y carga de los datos (ETL)
-EL dataset original provisto por el *Ministerio de Economía de la Nación* a través de datos.gob.ar consistía en más de 113.000 registros. Las tareas de limpieza y modelado incluyeron los siguientes apartados:
+El dataset original provisto por el *Ministerio de Economía de la Nación* a través del [Portal de Datos abiertos de la República Argentina](https://www.datos.gob.ar) consistía en más de 113.000 registros. Las tareas de limpieza y modelado incluyeron los siguientes apartados:
 - Eliminación de columnas redundantes para optimizar el tamaño y peso del modelo.
 - Ajustes de tipos financieros para evitar errores de precisión decimal.
 - Creación de medidas DAX personalizadas para escalar los montos de millones a **billones de pesos**, facilitando la lectura y comprensión de los resultados.
